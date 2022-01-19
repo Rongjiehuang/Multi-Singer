@@ -77,7 +77,7 @@ For Singing Voice Synthesis:
 - Use synthesized mel-spectrogram in Multi-Singer for waveform synthesis.
 
 ## Checkpoint
-[Trained on OpenSinger](https://drive.google.com/file/d/18rrYmLSrr1CepCTy2lO_NoKlh2jUUoRR/view?usp=sharing)
+[Trained on OpenSinger](https://github.com/Rongjiehuang/Multi-Singer/blob/main/Basic.pkl)
 
 
 ## Acknowledgements
