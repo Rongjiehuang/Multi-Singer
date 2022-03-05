@@ -23,9 +23,8 @@ See requirements in requirement.txt:
 
 
 ## 1. Pretrain
-Pretrain the Singer Embedding Extractor using repository [here](https://github.com/dipjyoti92/speaker_embeddings_GE2E), and set the 'enc_model_fpath' in config/config.yaml
-
-#### Note: Please set params as those in 'encoder/params_data' and 'encoder/params_model'.
+[Use our checkpoint](https://github.com/Rongjiehuang/Multi-Singer/blob/main/pretrained1.pt), or\
+you can also train the encoder on your own [here](https://github.com/dipjyoti92/speaker_embeddings_GE2E), and set the ```enc_model_fpath``` in config/config.yaml. Please set params as those in ```encoder/params_data``` and ```encoder/params_model```.
 
 ## 2. Preprocess
 
