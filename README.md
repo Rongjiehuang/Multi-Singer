@@ -2,7 +2,9 @@
 
 PyTorch Implementation of (ACM MM'21)[Multi-Singer: Fast Multi-Singer Singing Voice Vocoder With A Large-Scale Corpus](https://dl.acm.org/doi/pdf/10.1145/3474085.3475437).
 
-
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2112.10358)
+[![GitHub Stars](https://img.shields.io/github/stars/Rongjiehuang/Multi-Singer?style=social)](https://github.com/Rongjiehuang/Multi-Singer)
+<a href="https://github.com/pytorch/fairseq/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
 
 ## Requirements
 See requirements in requirement.txt:
