@@ -160,7 +160,7 @@ class Trainer(object):
         """Train model one step."""
         # parse batch
         x = []
-
+        x.append(batch['noise'])
         x.append(batch['feats'])
         embed = batch['embed'].to(self.device)
 
