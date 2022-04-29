@@ -2,7 +2,9 @@
 
 PyTorch Implementation of (ACM MM'21)[Multi-Singer: Fast Multi-Singer Singing Voice Vocoder With A Large-Scale Corpus](https://dl.acm.org/doi/pdf/10.1145/3474085.3475437).
 
-
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2112.10358)
+[![GitHub Stars](https://img.shields.io/github/stars/Rongjiehuang/Multi-Singer?style=social)](https://github.com/Rongjiehuang/Multi-Singer)
+<a href="https://github.com/pytorch/fairseq/blob/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
 
 ## Requirements
 See requirements in requirement.txt:
@@ -23,9 +25,8 @@ See requirements in requirement.txt:
 
 
 ## 1. Pretrain
-Pretrain the Singer Embedding Extractor using repository [here](https://github.com/dipjyoti92/speaker_embeddings_GE2E), and set the 'enc_model_fpath' in config/config.yaml
-
-#### Note: Please set params as those in 'encoder/params_data' and 'encoder/params_model'.
+[Use our checkpoint](https://github.com/Rongjiehuang/Multi-Singer/blob/main/pretrained1.pt), or\
+you can also train the encoder on your own [here](https://github.com/dipjyoti92/speaker_embeddings_GE2E), and set the ```enc_model_fpath``` in config/config.yaml. Please set params as those in ```encoder/params_data``` and ```encoder/params_model```.
 
 ## 2. Preprocess
 
@@ -77,7 +78,7 @@ For Singing Voice Synthesis:
 - Use synthesized mel-spectrogram in Multi-Singer for waveform synthesis.
 
 ## Checkpoint
-[Trained on OpenSinger](https://drive.google.com/file/d/18rrYmLSrr1CepCTy2lO_NoKlh2jUUoRR/view?usp=sharing)
+[Trained on OpenSinger](https://github.com/Rongjiehuang/Multi-Singer/blob/main/Basic.pkl)
 
 
 ## Acknowledgements
