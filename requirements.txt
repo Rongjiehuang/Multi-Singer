@@ -7,7 +7,7 @@ torchaudio==0.7.0
 apex==0.9.10.dev0
 torch==1.7.0
 webrtcvad==2.0.10
-librosa==0.6.2
+librosa==0.8.0
 gdown==3.12.2
 tensorflow
 matplotlib==3.3.3
